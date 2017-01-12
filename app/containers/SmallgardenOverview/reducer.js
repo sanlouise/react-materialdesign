@@ -1,6 +1,6 @@
 /*
  *
- * Homepage reducer
+ * SmallgardenOverview reducer
  *
  */
 
@@ -11,7 +11,7 @@ import {
 
 const initialState = fromJS({});
 
-function homepageReducer(state = initialState, action) {
+function smallgardenOverviewReducer(state = initialState, action) {
   switch (action.type) {
     case DEFAULT_ACTION:
       return state;
@@ -20,4 +20,4 @@ function homepageReducer(state = initialState, action) {
   }
 }
 
-export default homepageReducer;
+export default smallgardenOverviewReducer;
